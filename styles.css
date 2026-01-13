@@ -1,92 +1,90 @@
-@import url('https://fonts.cdnfonts.com/css/pusab');
-@import url('https://fonts.cdnfonts.com/css/picky-sway');
-@import url('https://fonts.cdnfonts.com/css/varuna');
-@import url('https://fonts.cdnfonts.com/css/ubuntu');
+<html style="">
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
 
 
-body {
-  background: aqua;
-  font-family: 'Picky Sway', sans-serif;;
-}
-p {
-  color: black;
-  font-family: 'varuna', sans-serif;
-  font-size: 1em;
-}
-h1 {
-  font-weight: bold;
-  text-align: center;
-  font-family: 'pusab', sans-serif;
-  font-size: 3.5em;
-}
+  <body>
+    <h1>
+      Travel Logs
+    </h1>
 
-h2 {
-  font-weight: bold;
-  text-align: center;
-  font-family: 'picky sway', sans-serif;
-  font-size: 2.15em;
-}
 
-.header {
-  width: 50%;
-  margin-left: 25%;
-  border: solid 4px darkorange;
-  border-radius: 10px;
-}
+    <img class="header" src="mario.jpeg" alt="image of me">
 
-.align-left {
-  width: 25%;
-  margin-right: 20px;
-  float: left;
-  margin-bottom: 10px;
-  border: solid 4px darkorange;
-  border-radius: 10px;
-}
 
-.align-right {
-  width: 25%;
-  margin-right: 20px;
-  float: right;
-  margin-bottom: 10px;
-  border: solid 4px darkorange;
-  border-radius: 10px;
-}
+    <p>I am mario and this is my website where I share travel photos from where I go aswell as giving recommendations as to where are good places to travel.</p>
 
-hr {
-  clear: both;
-}
 
-.itemtitle {
-  font-family: 'ubuntu', sans-serif;
-  font-weight: bold;
-  font-size: 1.25em;
-}
+    <h2>ordered list of countries rated</h2>
+    <p>
+    <ol class=normalise>
+      <li>Poland (9.7/10)</li>
+      <li>Italy (8.8/10)</li>
+      <li>france (6.4/10)</li>
+      <li>United States (4/10)</li>
+    </ol>
+    </p>
+      
+      <p class=normalise>average rating: 7.225/10</p>
 
-.itemtitle2 {
-  font-family: 'ubuntu', sans-serif;
-  font-weight: bold;
-  font-size: 1.25em;
-  text-align: right;
-  margin: ;
-}
 
-.leftAlign {
-  float: left; 
-}
+  <h2>Countries I have been to and reviews</h2>
 
-.rightAlign {
-  float: right; 
-}
 
-.normalise {
-  color: black;
-  font-family: 'varuna', sans-serif;
-  font-size: 1.1em;
-}
+  <img class="align-left" src="italy.jpeg" alt="flag of italy">
 
-.disclaimer {
-  font-family: 'varuna', sans-serif;
-  font-size: 12.5px;
-  color: grey;
-  text-align: center;
-}
+  <p class="itemtitle">Italy</p>
+
+  <p>It's a pretty nice place, however a big lizard stole my girl so never again. 10/10 with job opportunities, worked there most my life before travelling.</p>
+
+  <p>&#8203;</p>
+
+  <p class="leftAlign">review rating: 8.8/10</p>
+
+
+  <hr>
+
+
+  <img class="align-right" src="unitedStates.jpeg" alt="flag of the United States">
+
+  <p class="itemtitle">United States</p>
+
+  <p>There are many freedoms however it's just not something for me, other places offer better premiums. Also there are too many artificial additives for my liking.</p>
+
+  <p class="rightAlign">review rating: 4/10</p>
+
+
+  <hr>
+
+
+  <img class="align-left" src="france.jpeg" alt="flag of france">
+
+  <p class="itemtitle">France</p>
+
+  <p>Its a nice place but it has a bit too much litter around, and its a tourist hotspot so its kind of hard to get a more one-on-one photo, nice place irregardless but yeah a bit too crowded.</p>
+
+  <p class="leftAlign">review rating: 6.4/10</p>
+
+
+  <hr>
+
+
+  <img class="align-right" src="poland.jpeg" alt="flag of poland">
+
+  <p class="itemtitle2">Poland</p>
+
+  <p>Nice food and premiums, however expect most people to speak polish. Good food, nice places to sightsee, a bit crowded and a part of the commonwealth independent states that used to make of the USSR</p>
+
+  <p class="rightAlign">review rating: 9.7/10</p>
+
+
+  <hr>
+
+
+  <p class="disclaimer">All Rights Reserved</p>
+
+  </body>
+
+</html>
