@@ -85,8 +85,8 @@ hr {
 }
 
 .disclaimer {
-  font-family: Consolas;
-  font-size: 10px;
+  font-family: 'varuna', sans-serif;
+  font-size: 12.5px;
   color: grey;
   text-align: center;
 }
