@@ -37,7 +37,7 @@ h2 {
 .align-left {
   width: 25%;
   margin-right: 20px;
-  float:left;
+  float: left;
   margin-bottom: 10px;
   border: solid 4px darkorange;
   border-radius: 10px;
@@ -46,7 +46,7 @@ h2 {
 .align-right {
   width: 25%;
   margin-right: 20px;
-  float:right;
+  float: right;
   margin-bottom: 10px;
   border: solid 4px darkorange;
   border-radius: 10px;
@@ -62,12 +62,26 @@ hr {
   font-size: 1.25em;
 }
 
+.itemtitle2 {
+  font-family: 'ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 1.25em;
+  text-align: right;
+  margin: ;
+}
+
 .leftAlign {
   float: left; 
 }
 
 .rightAlign {
   float: right; 
+}
+
+.normalise {
+  color: black;
+  font-family: 'varuna', sans-serif;
+  font-size: 1.1em;
 }
 
 .disclaimer {
