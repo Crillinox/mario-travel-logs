@@ -62,6 +62,14 @@ hr {
   font-size: 1.25em;
 }
 
+.leftAlign {
+  float: left; 
+}
+
+.rightAlign {
+  float: right; 
+}
+
 .disclaimer {
   font-family: Consolas;
   font-size: 10px;
