@@ -5,7 +5,7 @@
 
 
 body {
-  background: aqua;
+  background: linear-gradient(to top, #4682B4, #ADD8E6);
   font-family: 'Picky Sway', sans-serif;;
 }
 p {
@@ -87,6 +87,6 @@ hr {
 .disclaimer {
   font-family: 'varuna', sans-serif;
   font-size: 12.5px;
-  color: grey;
+  color: #000000;
   text-align: center;
 }
